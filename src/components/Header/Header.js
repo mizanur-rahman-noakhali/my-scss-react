@@ -8,7 +8,9 @@ const Header = () => {
     <div>
       <p>Count value:{category}</p>
       <h1>This is Header:{category}</h1>
-      <button onClick={()=>setCategory(category+1)}>Increment</button>
+      <button onClick={()=>setCategory('laptop')}>Laptop</button>
+      <button onClick={()=>setCategory('Mobile')}>Mobile</button>
+      <button onClick={()=>setCategory('Camera')}>Camera</button>
     </div>
   );
 };
